@@ -65,7 +65,7 @@ public class KafkaConfig {
 
     @Bean
     public NewTopic amigoscodeTopic() {
-        return TopicBuilder.name("personas").build();
+        return TopicBuilder.name("prestamos").build();
     }
 
 }
